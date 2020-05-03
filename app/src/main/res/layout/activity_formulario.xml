@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#323333"
+    tools:context=".Formulario">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/BtnUser"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:backgroundTint="#000000"
+                android:drawableStart="@drawable/ic_launcher_userff"
+                android:text="@string/User"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/background_light"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/BtnBecome"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#000000"
+                android:drawableEnd="@drawable/ic_launcher_irff"
+                android:text="@string/Become"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/BtnUser" />
+
+            <Button
+                android:id="@+id/BtnRetaurar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#000000"
+                android:drawableEnd="@drawable/ic_launcher_irff"
+                android:text="@string/Restore"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/background_light"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/BtnBecome" />
+
+            <Button
+                android:id="@+id/BtnStories"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#000000"
+                android:drawableEnd="@drawable/ic_launcher_irff"
+                android:text="@string/Stories"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/background_light"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/BtnRetaurar" />
+
+            <Button
+                android:id="@+id/BtnSeries"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#000000"
+                android:drawableEnd="@drawable/ic_launcher_irff"
+                android:text="@string/Series"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/background_light"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/BtnStories" />
+
+            <Button
+                android:id="@+id/BtnEstadistica"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#000000"
+                android:drawableEnd="@drawable/ic_launcher_irff"
+                android:text="@string/Stats"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/background_light"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/BtnSeries" />
+
+            <Button
+                android:id="@+id/BtnPerso"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#000000"
+                android:drawableEnd="@drawable/ic_launcher_irff"
+                android:text="@string/Customize"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/background_light"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/BtnEstadistica" />
+
+            <Switch
+                android:id="@+id/switchModoNoche"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="#000000"
+                android:text="@string/Nigth_Mode"
+                android:textAlignment="viewStart"
+                android:textColor="@android:color/background_light"
+                android:textSize="14sp"
+                android:thumbTint="@android:color/background_light"
+                android:trackTint="#8BC34A"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.51"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/BtnPerso" />
+
+            <Button
+                android:id="@+id/BtnConfig"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#000000"
+                android:drawableEnd="@drawable/ic_launcher_irff"
+                android:text="@string/setting"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/background_light"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/switchModoNoche" />
+
+            <Button
+                android:id="@+id/BtnHelp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#000000"
+                android:drawableEnd="@drawable/ic_launcher_irff"
+                android:text="@string/help"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/background_light"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/BtnConfig" />
+
+            <Button
+                android:id="@+id/btnTerms"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#000000"
+                android:drawableEnd="@drawable/ic_launcher_irff"
+                android:text="@string/terms"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/background_light"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/BtnHelp" />
+
+            <Button
+                android:id="@+id/BtnContact"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#000000"
+                android:drawableEnd="@drawable/ic_launcher_irff"
+                android:text="@string/Contact"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/background_light"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnTerms" />
+
+            <Button
+                android:id="@+id/BtnComentarios"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#000000"
+                android:drawableEnd="@drawable/ic_launcher_irff"
+                android:text="@string/Mensaje"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/background_light"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/BtnContact" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

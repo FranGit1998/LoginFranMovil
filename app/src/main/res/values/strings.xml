@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name"><b>Medium</b></string>
+    <string name="ConteMe"><b>Medium</b></string>
+    <string name="Sign_UP"><b>Ingresa con Email</b></string>
+    <string name="PSign_Up"><p style="text-align:center">Escribe tu email, y te enviaremos \n un link de activación para poder \n iniciar tu cuenta.</p></string>
+    <string name="ETFullName">Escribe tu nombre</string>
+    <string name="ETEmail">Escribe tu Email</string>
+    <string name="BtnCreateAccount">Crear cuenta</string>
+    <string name="TextNewAccount">Creando esta cuenta, Acepto los \n <u>términos de servicio de Medium</u></string>
+    <string name="title_activity_contenido">Contenido</string>
+    <string name="TVPerfil"><b>James Le</b> \n Ingeniero de software || Product Management || \n Cientifico de Datos (https://jameskle.com/) \n 7 marzo - 15 min</string>
+    <string name="TVTexto"><big><b>15 Systems Thinking Guidelines to Live in a World of Uncertainty. \n</b></big><p> \n Systems thinking is a way of seeing the world as a series of <b>interconnected and interdependent </b>
+        systems rather than lots of independent parts. \n
+        As a thinking tool, it seeks to oppose the reductionist view — the idea that a system can be understood by the sum of its isolated parts — and replace it with expansionism,
+        the view that everything is part of a larger whole and that the connections between all elements are critical. \n
+        Systems are essentially networks made up of nodes or agents that are linked in varied and diverse ways. \n
+        What we want to do in systems thinking is be able to identify and understand these relationships as part of the exploration of the larger systems at play. \n Everything is interconnected,
+        every system is made up of many subsystems, and is itself a part of larger systems. \n
+        Seeing things in this way helps to create a more flexible view of the world and the way it works, and it illuminates opportunities for addressing some of its existing and evolving problem arenas. \n
+        Living successfully in a world of systems requires more of us than our ability to calculate. \n It requires our full humanity — our rationality, our ability to sort out truth from falsehood, our intuition, our compassion, our vision, and our morality. \n
+        In one of the chapters from her famous book — <i><u>Thinking In Systems, Donella Meadows</u></i> summarized the most general “systems wisdoms” she has absorbed from modeling complex systems and from hanging out with modelers. \n
+        These are the take-home lessons, the concepts and practices that penetrate the discipline of systems so deeply that one begins, however imperfectly, to practice them not just in one’s profession, but in all of life. \n
+        They are the behavioral consequences of a worldview based on the ideas of feedback, nonlinearity and systems responsible for their own behavior. \n
+        After spending the last couple days finishing the book, I want to share these 15 systems wisdoms/guidelines as I believe everyone can benefit from adopting them.</p></string>
+    <string name="User"><big>Mobbin Design \n </big><annotation style="color:#03DAC5">\n Ver perfil</annotation></string>
+    <string name="Become">Convertirse en miembro</string>
+    <string name="Restore">Restaurar la compra</string>
+    <string name="Stories">Historias</string>
+    <string name="Series">Series</string>
+    <string name="Stats">Estadísticas</string>
+    <string name="Customize">Personaliza tus intereses</string>
+    <string name="Nigth_Mode">Modo oscuro</string>
+    <string name="setting">Configuración</string>
+    <string name="help">Ayuda</string>
+    <string name="terms">Terminos de servicio</string>
+    <string name="Contact">Contacto</string>
+    <string name="Mensaje">Comentarios</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="action_share">Perfil</string>
+    <string name="EnterCreate">Usted creó una cuenta</string>
+    <string name="Save">Escogiste la opción guardar</string>
+    <string name="RHombre">Hombre</string>
+    <string name="Rmujer">Mujer</string>
+    <string name="MensajeHombre">Hombre</string>
+    <string name="MensajeMujer">Mujer</string>
+    <string name="ContactDesple">Escogiste la opción contacto</string>
+    <string name="AjustesMensaje">Escogiste la opción ajustes</string>
+    <string name="action_save">Guardar</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="titulo">Esta opción aún no esta habilitada</string>
+    <string name="mensajeAlert">Presione Ok o cancelar para continuar</string>
+    <string name="OK">OK</string>
+    <string name="Cancelar">Cancelar</string>
+    <string name="PressOk">Presionaste ok</string>
+    <string name="PressCancel">Presionaste cancelar</string>
+    <string name="TituloApp">Medium</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="Usuario">Imagen de perfil de usuario</string>
+    <string name="Carretera">Imagen de la carretera desde el cielo</string>
+    <string name="Imagen_Medium">Icono de medium</string>
+
+</resources>
